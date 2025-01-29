@@ -1,0 +1,10 @@
+
+.reset-button {
+    background-color: black !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+  }
+  
+  .reset-button:hover {
+    background-color: rgb(97, 96, 96) !important;  /* Override with hover effect */
+  }

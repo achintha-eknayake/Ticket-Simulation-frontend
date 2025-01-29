@@ -1,0 +1,106 @@
+body {
+  color: black;
+  background-color: white;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  }
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.configuration-section, 
+.simulation-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.simulation-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-detail {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+}
+
+.view-detail {
+  display: flex;
+  margin-left: 100px;
+  gap: 20px;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.thread-control {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+  width: 300px; 
+  height: 300px; 
+
+}
+
+.thread-control button {
+  margin: 5px;
+  padding: 10px 15px;
+}
